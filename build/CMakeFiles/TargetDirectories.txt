@@ -1,0 +1,3 @@
+C:/Users/phini/Desktop/vulkar/build/CMakeFiles/vulkar.dir
+C:/Users/phini/Desktop/vulkar/build/CMakeFiles/edit_cache.dir
+C:/Users/phini/Desktop/vulkar/build/CMakeFiles/rebuild_cache.dir
