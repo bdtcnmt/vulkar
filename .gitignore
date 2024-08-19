@@ -1,0 +1,9 @@
+# CMake build files
+buil/
+
+# Compiled binary
+*.exe
+
+# Logs and temporary files
+*.log 
+*.tmp 
