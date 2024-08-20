@@ -1,12 +1,17 @@
 #include "VulkanApp.h"
 #include <stdexcept>
 #include <iostream>
+#include <vector>
 
 void VulkanApp::run() {
     initWindow();
     initVulkan();
     mainLoop();
     cleanup();
+}
+
+void VulkanApp::initVulkan() {
+    createInstance();
 }
 
 void VulkanApp::initWindow() {
@@ -17,13 +22,13 @@ void VulkanApp::initWindow() {
     glfwWindowHint(GLFW_CLIENT_API, GLFW_NO_API);
     glfwWindowHint(GLFW_RESIZABLE, GLFW_FALSE);
 
-    window = glfwCreateWindow(800, 600, "Vulkan (Fart) Window", nullptr, nullptr);
+    window = glfwCreateWindow(WIDTH, HEIGHT, "Vulkan (Fart) Window", nullptr, nullptr);
     if (!window) {
         throw std::runtime_error("Failed to create GLFW window!");
     }
 }
 
-void VulkanApp::initVulkan() {
+void VulkanApp::createInstance() {
     VkApplicationInfo appInfo{};
     appInfo.sType = VK_STRUCTURE_TYPE_APPLICATION_INFO;
     appInfo.pApplicationName = "Vulkan Application";
@@ -40,12 +45,31 @@ void VulkanApp::initVulkan() {
     const char** glfwExtensions;
     glfwExtensions = glfwGetRequiredInstanceExtensions(&glfwExtensionCount);
 
+    // Print the number of required GLFW extensions
+    std::cout << "GLFW requires " << glfwExtensionCount << " extensions:\n";
+
+    // Print each GLFW extension name
+    for (uint32_t i = 0; i < glfwExtensionCount; i++) {
+        std::cout << '\t' << glfwExtensions[i] << '\n';
+    }
+
     createInfo.enabledExtensionCount = glfwExtensionCount;
     createInfo.ppEnabledExtensionNames = glfwExtensions;
+    createInfo.enabledLayerCount = 0;
 
     if (vkCreateInstance(&createInfo, nullptr, &instance) != VK_SUCCESS) {
         throw std::runtime_error("Failed to create Vulkan instance!");
     }
+
+    // List available vulkan extensions
+    uint32_t extensionCount = 0;
+    vkEnumerateInstanceExtensionProperties(nullptr, &extensionCount, nullptr);
+    std::vector<VkExtensionProperties> extensions(extensionCount);
+    vkEnumerateInstanceExtensionProperties(nullptr, &extensionCount, extensions.data());
+    std::cout << "Available Extensions:\n";
+    for (const auto& extension : extensions) {
+        std::cout << '\t' << extension.extensionName << '\n';
+    } 
 }
 
 void VulkanApp::mainLoop() {

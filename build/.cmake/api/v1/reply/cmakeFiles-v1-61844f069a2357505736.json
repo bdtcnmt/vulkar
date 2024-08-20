@@ -10,15 +10,6 @@
 			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake"
 		},
 		{
-			"isExternal" : true,
-			"path" : "C:/src/vcpkg/scripts/buildsystems/vcpkg.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDependentOption.cmake"
-		},
-		{
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeSystem.cmake.in"
@@ -28,18 +19,9 @@
 			"path" : "build/CMakeFiles/3.29.0-rc2/CMakeSystem.cmake"
 		},
 		{
-			"isExternal" : true,
-			"path" : "C:/src/vcpkg/scripts/buildsystems/vcpkg.cmake"
-		},
-		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDependentOption.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeMinGWFindMake.cmake"
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeUnixFindMake.cmake"
 		},
 		{
 			"isCMake" : true,

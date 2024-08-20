@@ -1,5 +1,5 @@
 CMakeFiles/vulkar.dir/src/main.cpp.obj: \
- C:\Users\phini\Desktop\vulkar\src\main.cpp \
+ C:/Users/phini/Desktop/vulkar/src/main.cpp \
  C:/Users/phini/Desktop/vulkar/include/VulkanApp.h \
  C:/src/vcpkg/installed/x64-mingw-static/include/GLFW/glfw3.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \
