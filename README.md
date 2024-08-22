@@ -1,2 +1,1 @@
-Creating a game engine and learning Vulkan in the process.
-Any advice is appreciated, feel free to comment
+Creating a game engine to learn about Vulkan and 3D graphics
