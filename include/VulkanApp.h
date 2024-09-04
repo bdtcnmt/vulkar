@@ -3,6 +3,7 @@
 
 #define GLFW_INCLUDE_VULKAN
 #include <GLFW/glfw3.h>
+#include "vge_pipeline.h"
 
 const uint32_t WIDTH = 800;
 const uint32_t HEIGHT = 600;
@@ -20,6 +21,8 @@ class VulkanApp {
 
         GLFWwindow* window;
         VkInstance instance;
+
+        VgePipeline vgePipelin{"../shaders/simple_shader.vert.spv", "../shaders/simple_shader.frag.spv"};
 };
 
 #endif // VULKAN_APP_H

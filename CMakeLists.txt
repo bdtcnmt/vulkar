@@ -18,7 +18,7 @@ set(CMAKE_PREFIX_PATH "${CMAKE_PREFIX_PATH};C:/src/vcpkg/installed/x64-mingw-sta
 find_package(Vulkan REQUIRED)
 
 # Add the executable
-add_executable(vulkar src/main.cpp src/VulkanApp.cpp)
+add_executable(vulkar src/main.cpp src/VulkanApp.cpp src/vge_pipeline.cpp)
 
 # Explicitly link the static GLFW library
 target_link_libraries(vulkar Vulkan::Vulkan C:/src/vcpkg/installed/x64-mingw-static/lib/libglfw3.a)
