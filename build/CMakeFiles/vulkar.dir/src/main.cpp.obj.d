@@ -24,7 +24,7 @@ CMakeFiles/vulkar.dir/src/main.cpp.obj: \
  C:/VulkanSDK/1.3.275.0/Include/vk_video/vulkan_video_codec_h264std_decode.h \
  C:/VulkanSDK/1.3.275.0/Include/vk_video/vulkan_video_codec_h265std_decode.h \
  C:/msys64/ucrt64/include/GL/gl.h \
- C:/Users/phini/Desktop/vulkar/include/vge_pipeline.h \
+ C:/Users/phini/Desktop/vulkar/include/vge_window.h \
  C:/msys64/ucrt64/include/c++/13.1.0/string \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/requires_hosted.h \
  C:/msys64/ucrt64/include/c++/13.1.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -112,6 +112,7 @@ CMakeFiles/vulkar.dir/src/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/uses_allocator.h \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/uses_allocator_args.h \
  C:/msys64/ucrt64/include/c++/13.1.0/tuple \
+ C:/Users/phini/Desktop/vulkar/include/vge_pipeline.h \
  C:/msys64/ucrt64/include/c++/13.1.0/vector \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/stl_uninitialized.h \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/stl_vector.h \

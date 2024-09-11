@@ -1,6 +1,6 @@
-CMakeFiles/vulkar.dir/src/VulkanApp.cpp.obj: \
- C:\Users\phini\Desktop\vulkar\src\VulkanApp.cpp \
- C:/Users/phini/Desktop/vulkar/include/VulkanApp.h \
+CMakeFiles/vulkar.dir/src/vge_window.cpp.obj: \
+ C:\Users\phini\Desktop\vulkar\src\vge_window.cpp \
+ C:/Users/phini/Desktop/vulkar/include/vge_window.h \
  C:/src/vcpkg/installed/x64-mingw-static/include/GLFW/glfw3.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \
  C:/msys64/ucrt64/include/stddef.h C:/msys64/ucrt64/include/crtdefs.h \
@@ -24,7 +24,6 @@ CMakeFiles/vulkar.dir/src/VulkanApp.cpp.obj: \
  C:/VulkanSDK/1.3.275.0/Include/vk_video/vulkan_video_codec_h264std_decode.h \
  C:/VulkanSDK/1.3.275.0/Include/vk_video/vulkan_video_codec_h265std_decode.h \
  C:/msys64/ucrt64/include/GL/gl.h \
- C:/Users/phini/Desktop/vulkar/include/vge_window.h \
  C:/msys64/ucrt64/include/c++/13.1.0/string \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/requires_hosted.h \
  C:/msys64/ucrt64/include/c++/13.1.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -112,52 +111,9 @@ CMakeFiles/vulkar.dir/src/VulkanApp.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/uses_allocator.h \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/uses_allocator_args.h \
  C:/msys64/ucrt64/include/c++/13.1.0/tuple \
- C:/Users/phini/Desktop/vulkar/include/vge_pipeline.h \
- C:/msys64/ucrt64/include/c++/13.1.0/vector \
- C:/msys64/ucrt64/include/c++/13.1.0/bits/stl_uninitialized.h \
- C:/msys64/ucrt64/include/c++/13.1.0/bits/stl_vector.h \
- C:/msys64/ucrt64/include/c++/13.1.0/bits/stl_bvector.h \
- C:/msys64/ucrt64/include/c++/13.1.0/bits/vector.tcc \
  C:/msys64/ucrt64/include/c++/13.1.0/stdexcept \
  C:/msys64/ucrt64/include/c++/13.1.0/exception \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/exception_ptr.h \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/cxxabi_init_exception.h \
  C:/msys64/ucrt64/include/c++/13.1.0/typeinfo \
- C:/msys64/ucrt64/include/c++/13.1.0/bits/nested_exception.h \
- C:/msys64/ucrt64/include/c++/13.1.0/iostream \
- C:/msys64/ucrt64/include/c++/13.1.0/ostream \
- C:/msys64/ucrt64/include/c++/13.1.0/ios \
- C:/msys64/ucrt64/include/c++/13.1.0/bits/ios_base.h \
- C:/msys64/ucrt64/include/c++/13.1.0/ext/atomicity.h \
- C:/msys64/ucrt64/include/c++/13.1.0/x86_64-w64-mingw32/bits/gthr.h \
- C:/msys64/ucrt64/include/c++/13.1.0/x86_64-w64-mingw32/bits/gthr-default.h \
- C:/msys64/ucrt64/include/pthread.h C:/msys64/ucrt64/include/sys/types.h \
- C:/msys64/ucrt64/include/process.h \
- C:/msys64/ucrt64/include/corecrt_startup.h \
- C:/msys64/ucrt64/include/signal.h \
- C:/msys64/ucrt64/include/pthread_signal.h \
- C:/msys64/ucrt64/include/time.h C:/msys64/ucrt64/include/sys/timeb.h \
- C:/msys64/ucrt64/include/sec_api/sys/timeb_s.h \
- C:/msys64/ucrt64/include/_timeval.h \
- C:/msys64/ucrt64/include/pthread_time.h \
- C:/msys64/ucrt64/include/pthread_compat.h \
- C:/msys64/ucrt64/include/pthread_unistd.h \
- C:/msys64/ucrt64/include/c++/13.1.0/x86_64-w64-mingw32/bits/atomic_word.h \
- C:/msys64/ucrt64/include/c++/13.1.0/bits/locale_classes.h \
- C:/msys64/ucrt64/include/c++/13.1.0/bits/locale_classes.tcc \
- C:/msys64/ucrt64/include/c++/13.1.0/system_error \
- C:/msys64/ucrt64/include/c++/13.1.0/x86_64-w64-mingw32/bits/error_constants.h \
- C:/msys64/ucrt64/include/c++/13.1.0/streambuf \
- C:/msys64/ucrt64/include/c++/13.1.0/bits/streambuf.tcc \
- C:/msys64/ucrt64/include/c++/13.1.0/bits/basic_ios.h \
- C:/msys64/ucrt64/include/c++/13.1.0/bits/locale_facets.h \
- C:/msys64/ucrt64/include/c++/13.1.0/cwctype \
- C:/msys64/ucrt64/include/wctype.h \
- C:/msys64/ucrt64/include/c++/13.1.0/x86_64-w64-mingw32/bits/ctype_base.h \
- C:/msys64/ucrt64/include/c++/13.1.0/bits/streambuf_iterator.h \
- C:/msys64/ucrt64/include/c++/13.1.0/x86_64-w64-mingw32/bits/ctype_inline.h \
- C:/msys64/ucrt64/include/c++/13.1.0/bits/locale_facets.tcc \
- C:/msys64/ucrt64/include/c++/13.1.0/bits/basic_ios.tcc \
- C:/msys64/ucrt64/include/c++/13.1.0/bits/ostream.tcc \
- C:/msys64/ucrt64/include/c++/13.1.0/istream \
- C:/msys64/ucrt64/include/c++/13.1.0/bits/istream.tcc
+ C:/msys64/ucrt64/include/c++/13.1.0/bits/nested_exception.h

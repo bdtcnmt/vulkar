@@ -1,6 +1,7 @@
-CMakeFiles/vulkar.dir/src/VulkanApp.cpp.obj: \
- C:\Users\phini\Desktop\vulkar\src\VulkanApp.cpp \
- C:/Users/phini/Desktop/vulkar/include/VulkanApp.h \
+CMakeFiles/vulkar.dir/src/vge_device.cpp.obj: \
+ C:\Users\phini\Desktop\vulkar\src\vge_device.cpp \
+ C:/Users/phini/Desktop/vulkar/include/vge_device.h \
+ C:/Users/phini/Desktop/vulkar/include/vge_window.h \
  C:/src/vcpkg/installed/x64-mingw-static/include/GLFW/glfw3.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \
  C:/msys64/ucrt64/include/stddef.h C:/msys64/ucrt64/include/crtdefs.h \
@@ -24,7 +25,6 @@ CMakeFiles/vulkar.dir/src/VulkanApp.cpp.obj: \
  C:/VulkanSDK/1.3.275.0/Include/vk_video/vulkan_video_codec_h264std_decode.h \
  C:/VulkanSDK/1.3.275.0/Include/vk_video/vulkan_video_codec_h265std_decode.h \
  C:/msys64/ucrt64/include/GL/gl.h \
- C:/Users/phini/Desktop/vulkar/include/vge_window.h \
  C:/msys64/ucrt64/include/c++/13.1.0/string \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/requires_hosted.h \
  C:/msys64/ucrt64/include/c++/13.1.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -112,21 +112,22 @@ CMakeFiles/vulkar.dir/src/VulkanApp.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/uses_allocator.h \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/uses_allocator_args.h \
  C:/msys64/ucrt64/include/c++/13.1.0/tuple \
- C:/Users/phini/Desktop/vulkar/include/vge_pipeline.h \
  C:/msys64/ucrt64/include/c++/13.1.0/vector \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/stl_uninitialized.h \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/stl_vector.h \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/stl_bvector.h \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/vector.tcc \
- C:/msys64/ucrt64/include/c++/13.1.0/stdexcept \
+ C:/msys64/ucrt64/include/c++/13.1.0/cstring \
+ C:/msys64/ucrt64/include/string.h \
+ C:/msys64/ucrt64/include/sec_api/string_s.h \
+ C:/msys64/ucrt64/include/c++/13.1.0/iostream \
+ C:/msys64/ucrt64/include/c++/13.1.0/ostream \
+ C:/msys64/ucrt64/include/c++/13.1.0/ios \
  C:/msys64/ucrt64/include/c++/13.1.0/exception \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/exception_ptr.h \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/cxxabi_init_exception.h \
  C:/msys64/ucrt64/include/c++/13.1.0/typeinfo \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/nested_exception.h \
- C:/msys64/ucrt64/include/c++/13.1.0/iostream \
- C:/msys64/ucrt64/include/c++/13.1.0/ostream \
- C:/msys64/ucrt64/include/c++/13.1.0/ios \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/ios_base.h \
  C:/msys64/ucrt64/include/c++/13.1.0/ext/atomicity.h \
  C:/msys64/ucrt64/include/c++/13.1.0/x86_64-w64-mingw32/bits/gthr.h \
@@ -147,6 +148,7 @@ CMakeFiles/vulkar.dir/src/VulkanApp.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/locale_classes.tcc \
  C:/msys64/ucrt64/include/c++/13.1.0/system_error \
  C:/msys64/ucrt64/include/c++/13.1.0/x86_64-w64-mingw32/bits/error_constants.h \
+ C:/msys64/ucrt64/include/c++/13.1.0/stdexcept \
  C:/msys64/ucrt64/include/c++/13.1.0/streambuf \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/streambuf.tcc \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/basic_ios.h \
@@ -160,4 +162,16 @@ CMakeFiles/vulkar.dir/src/VulkanApp.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/basic_ios.tcc \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/ostream.tcc \
  C:/msys64/ucrt64/include/c++/13.1.0/istream \
- C:/msys64/ucrt64/include/c++/13.1.0/bits/istream.tcc
+ C:/msys64/ucrt64/include/c++/13.1.0/bits/istream.tcc \
+ C:/msys64/ucrt64/include/c++/13.1.0/set \
+ C:/msys64/ucrt64/include/c++/13.1.0/bits/stl_tree.h \
+ C:/msys64/ucrt64/include/c++/13.1.0/ext/aligned_buffer.h \
+ C:/msys64/ucrt64/include/c++/13.1.0/bits/node_handle.h \
+ C:/msys64/ucrt64/include/c++/13.1.0/bits/stl_set.h \
+ C:/msys64/ucrt64/include/c++/13.1.0/bits/stl_multiset.h \
+ C:/msys64/ucrt64/include/c++/13.1.0/bits/erase_if.h \
+ C:/msys64/ucrt64/include/c++/13.1.0/unordered_set \
+ C:/msys64/ucrt64/include/c++/13.1.0/bits/unordered_set.h \
+ C:/msys64/ucrt64/include/c++/13.1.0/bits/hashtable.h \
+ C:/msys64/ucrt64/include/c++/13.1.0/bits/hashtable_policy.h \
+ C:/msys64/ucrt64/include/c++/13.1.0/bits/enable_special_members.h

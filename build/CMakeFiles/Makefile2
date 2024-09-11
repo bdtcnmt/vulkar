@@ -80,12 +80,12 @@ clean: CMakeFiles/vulkar.dir/clean
 CMakeFiles/vulkar.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\vulkar.dir\build.make CMakeFiles/vulkar.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\vulkar.dir\build.make CMakeFiles/vulkar.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\phini\Desktop\vulkar\build\CMakeFiles --progress-num=1,2,3,4 "Built target vulkar"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\phini\Desktop\vulkar\build\CMakeFiles --progress-num=1,2,3,4,5,6 "Built target vulkar"
 .PHONY : CMakeFiles/vulkar.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vulkar.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\phini\Desktop\vulkar\build\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\phini\Desktop\vulkar\build\CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/vulkar.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\phini\Desktop\vulkar\build\CMakeFiles 0
 .PHONY : CMakeFiles/vulkar.dir/rule

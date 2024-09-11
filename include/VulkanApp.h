@@ -1,20 +1,20 @@
-#ifndef VULKAN_APP_H
-#define VULKAN_APP_H
+#pragma once
 
 #define GLFW_INCLUDE_VULKAN
 #include <GLFW/glfw3.h>
+#include "vge_window.h"
 #include "vge_pipeline.h"
 
-const uint32_t WIDTH = 800;
-const uint32_t HEIGHT = 600;
-
+namespace vge {
 class VulkanApp {
     public:
         void run();
+        static constexpr int WIDTH = 800;
+        static constexpr int HEIGHT = 600;
 
     private:
-        void initWindow();
         void initVulkan();
+        vge::VgeWindow vgeWindow{WIDTH, HEIGHT, "yell and scream"};
         void mainLoop();
         void cleanup();
         void createInstance();
@@ -24,5 +24,4 @@ class VulkanApp {
 
         VgePipeline vgePipelin{"../shaders/simple_shader.vert.spv", "../shaders/simple_shader.frag.spv"};
 };
-
-#endif // VULKAN_APP_H
+} // namespace vge
