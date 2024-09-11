@@ -2,7 +2,7 @@
 #include <iostream>
 
 int main() {
-    VulkanApp app;
+    vge::VulkanApp app;
 
     try {
         app.run();

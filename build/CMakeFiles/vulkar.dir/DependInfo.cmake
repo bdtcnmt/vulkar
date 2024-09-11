@@ -10,7 +10,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/phini/Desktop/vulkar/src/VulkanApp.cpp" "CMakeFiles/vulkar.dir/src/VulkanApp.cpp.obj" "gcc" "CMakeFiles/vulkar.dir/src/VulkanApp.cpp.obj.d"
   "C:/Users/phini/Desktop/vulkar/src/main.cpp" "CMakeFiles/vulkar.dir/src/main.cpp.obj" "gcc" "CMakeFiles/vulkar.dir/src/main.cpp.obj.d"
+  "C:/Users/phini/Desktop/vulkar/src/vge_device.cpp" "CMakeFiles/vulkar.dir/src/vge_device.cpp.obj" "gcc" "CMakeFiles/vulkar.dir/src/vge_device.cpp.obj.d"
   "C:/Users/phini/Desktop/vulkar/src/vge_pipeline.cpp" "CMakeFiles/vulkar.dir/src/vge_pipeline.cpp.obj" "gcc" "CMakeFiles/vulkar.dir/src/vge_pipeline.cpp.obj.d"
+  "C:/Users/phini/Desktop/vulkar/src/vge_window.cpp" "CMakeFiles/vulkar.dir/src/vge_window.cpp.obj" "gcc" "CMakeFiles/vulkar.dir/src/vge_window.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

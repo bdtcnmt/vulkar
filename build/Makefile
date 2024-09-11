@@ -176,6 +176,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\vulkar.dir\build.make CMakeFiles/vulkar.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/vge_device.obj: src/vge_device.cpp.obj
+.PHONY : src/vge_device.obj
+
+# target to build an object file
+src/vge_device.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vulkar.dir\build.make CMakeFiles/vulkar.dir/src/vge_device.cpp.obj
+.PHONY : src/vge_device.cpp.obj
+
+src/vge_device.i: src/vge_device.cpp.i
+.PHONY : src/vge_device.i
+
+# target to preprocess a source file
+src/vge_device.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vulkar.dir\build.make CMakeFiles/vulkar.dir/src/vge_device.cpp.i
+.PHONY : src/vge_device.cpp.i
+
+src/vge_device.s: src/vge_device.cpp.s
+.PHONY : src/vge_device.s
+
+# target to generate assembly for a file
+src/vge_device.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vulkar.dir\build.make CMakeFiles/vulkar.dir/src/vge_device.cpp.s
+.PHONY : src/vge_device.cpp.s
+
 src/vge_pipeline.obj: src/vge_pipeline.cpp.obj
 .PHONY : src/vge_pipeline.obj
 
@@ -200,6 +224,30 @@ src/vge_pipeline.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\vulkar.dir\build.make CMakeFiles/vulkar.dir/src/vge_pipeline.cpp.s
 .PHONY : src/vge_pipeline.cpp.s
 
+src/vge_window.obj: src/vge_window.cpp.obj
+.PHONY : src/vge_window.obj
+
+# target to build an object file
+src/vge_window.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vulkar.dir\build.make CMakeFiles/vulkar.dir/src/vge_window.cpp.obj
+.PHONY : src/vge_window.cpp.obj
+
+src/vge_window.i: src/vge_window.cpp.i
+.PHONY : src/vge_window.i
+
+# target to preprocess a source file
+src/vge_window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vulkar.dir\build.make CMakeFiles/vulkar.dir/src/vge_window.cpp.i
+.PHONY : src/vge_window.cpp.i
+
+src/vge_window.s: src/vge_window.cpp.s
+.PHONY : src/vge_window.s
+
+# target to generate assembly for a file
+src/vge_window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vulkar.dir\build.make CMakeFiles/vulkar.dir/src/vge_window.cpp.s
+.PHONY : src/vge_window.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -215,9 +263,15 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/vge_device.obj
+	@echo ... src/vge_device.i
+	@echo ... src/vge_device.s
 	@echo ... src/vge_pipeline.obj
 	@echo ... src/vge_pipeline.i
 	@echo ... src/vge_pipeline.s
+	@echo ... src/vge_window.obj
+	@echo ... src/vge_window.i
+	@echo ... src/vge_window.s
 .PHONY : help
 
 

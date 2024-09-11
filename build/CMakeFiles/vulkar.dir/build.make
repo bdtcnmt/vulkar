@@ -68,26 +68,11 @@ include CMakeFiles/vulkar.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/vulkar.dir/flags.make
 
-CMakeFiles/vulkar.dir/src/main.cpp.obj: CMakeFiles/vulkar.dir/flags.make
-CMakeFiles/vulkar.dir/src/main.cpp.obj: CMakeFiles/vulkar.dir/includes_CXX.rsp
-CMakeFiles/vulkar.dir/src/main.cpp.obj: C:/Users/phini/Desktop/vulkar/src/main.cpp
-CMakeFiles/vulkar.dir/src/main.cpp.obj: CMakeFiles/vulkar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\phini\Desktop\vulkar\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/vulkar.dir/src/main.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vulkar.dir/src/main.cpp.obj -MF CMakeFiles\vulkar.dir\src\main.cpp.obj.d -o CMakeFiles\vulkar.dir\src\main.cpp.obj -c C:\Users\phini\Desktop\vulkar\src\main.cpp
-
-CMakeFiles/vulkar.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/vulkar.dir/src/main.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\phini\Desktop\vulkar\src\main.cpp > CMakeFiles\vulkar.dir\src\main.cpp.i
-
-CMakeFiles/vulkar.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/vulkar.dir/src/main.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\phini\Desktop\vulkar\src\main.cpp -o CMakeFiles\vulkar.dir\src\main.cpp.s
-
 CMakeFiles/vulkar.dir/src/VulkanApp.cpp.obj: CMakeFiles/vulkar.dir/flags.make
 CMakeFiles/vulkar.dir/src/VulkanApp.cpp.obj: CMakeFiles/vulkar.dir/includes_CXX.rsp
 CMakeFiles/vulkar.dir/src/VulkanApp.cpp.obj: C:/Users/phini/Desktop/vulkar/src/VulkanApp.cpp
 CMakeFiles/vulkar.dir/src/VulkanApp.cpp.obj: CMakeFiles/vulkar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\phini\Desktop\vulkar\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/vulkar.dir/src/VulkanApp.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\phini\Desktop\vulkar\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/vulkar.dir/src/VulkanApp.cpp.obj"
 	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vulkar.dir/src/VulkanApp.cpp.obj -MF CMakeFiles\vulkar.dir\src\VulkanApp.cpp.obj.d -o CMakeFiles\vulkar.dir\src\VulkanApp.cpp.obj -c C:\Users\phini\Desktop\vulkar\src\VulkanApp.cpp
 
 CMakeFiles/vulkar.dir/src/VulkanApp.cpp.i: cmake_force
@@ -98,11 +83,41 @@ CMakeFiles/vulkar.dir/src/VulkanApp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/vulkar.dir/src/VulkanApp.cpp.s"
 	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\phini\Desktop\vulkar\src\VulkanApp.cpp -o CMakeFiles\vulkar.dir\src\VulkanApp.cpp.s
 
+CMakeFiles/vulkar.dir/src/main.cpp.obj: CMakeFiles/vulkar.dir/flags.make
+CMakeFiles/vulkar.dir/src/main.cpp.obj: CMakeFiles/vulkar.dir/includes_CXX.rsp
+CMakeFiles/vulkar.dir/src/main.cpp.obj: C:/Users/phini/Desktop/vulkar/src/main.cpp
+CMakeFiles/vulkar.dir/src/main.cpp.obj: CMakeFiles/vulkar.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\phini\Desktop\vulkar\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/vulkar.dir/src/main.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vulkar.dir/src/main.cpp.obj -MF CMakeFiles\vulkar.dir\src\main.cpp.obj.d -o CMakeFiles\vulkar.dir\src\main.cpp.obj -c C:\Users\phini\Desktop\vulkar\src\main.cpp
+
+CMakeFiles/vulkar.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/vulkar.dir/src/main.cpp.i"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\phini\Desktop\vulkar\src\main.cpp > CMakeFiles\vulkar.dir\src\main.cpp.i
+
+CMakeFiles/vulkar.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/vulkar.dir/src/main.cpp.s"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\phini\Desktop\vulkar\src\main.cpp -o CMakeFiles\vulkar.dir\src\main.cpp.s
+
+CMakeFiles/vulkar.dir/src/vge_device.cpp.obj: CMakeFiles/vulkar.dir/flags.make
+CMakeFiles/vulkar.dir/src/vge_device.cpp.obj: CMakeFiles/vulkar.dir/includes_CXX.rsp
+CMakeFiles/vulkar.dir/src/vge_device.cpp.obj: C:/Users/phini/Desktop/vulkar/src/vge_device.cpp
+CMakeFiles/vulkar.dir/src/vge_device.cpp.obj: CMakeFiles/vulkar.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\phini\Desktop\vulkar\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/vulkar.dir/src/vge_device.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vulkar.dir/src/vge_device.cpp.obj -MF CMakeFiles\vulkar.dir\src\vge_device.cpp.obj.d -o CMakeFiles\vulkar.dir\src\vge_device.cpp.obj -c C:\Users\phini\Desktop\vulkar\src\vge_device.cpp
+
+CMakeFiles/vulkar.dir/src/vge_device.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/vulkar.dir/src/vge_device.cpp.i"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\phini\Desktop\vulkar\src\vge_device.cpp > CMakeFiles\vulkar.dir\src\vge_device.cpp.i
+
+CMakeFiles/vulkar.dir/src/vge_device.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/vulkar.dir/src/vge_device.cpp.s"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\phini\Desktop\vulkar\src\vge_device.cpp -o CMakeFiles\vulkar.dir\src\vge_device.cpp.s
+
 CMakeFiles/vulkar.dir/src/vge_pipeline.cpp.obj: CMakeFiles/vulkar.dir/flags.make
 CMakeFiles/vulkar.dir/src/vge_pipeline.cpp.obj: CMakeFiles/vulkar.dir/includes_CXX.rsp
 CMakeFiles/vulkar.dir/src/vge_pipeline.cpp.obj: C:/Users/phini/Desktop/vulkar/src/vge_pipeline.cpp
 CMakeFiles/vulkar.dir/src/vge_pipeline.cpp.obj: CMakeFiles/vulkar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\phini\Desktop\vulkar\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/vulkar.dir/src/vge_pipeline.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\phini\Desktop\vulkar\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/vulkar.dir/src/vge_pipeline.cpp.obj"
 	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vulkar.dir/src/vge_pipeline.cpp.obj -MF CMakeFiles\vulkar.dir\src\vge_pipeline.cpp.obj.d -o CMakeFiles\vulkar.dir\src\vge_pipeline.cpp.obj -c C:\Users\phini\Desktop\vulkar\src\vge_pipeline.cpp
 
 CMakeFiles/vulkar.dir/src/vge_pipeline.cpp.i: cmake_force
@@ -113,25 +128,44 @@ CMakeFiles/vulkar.dir/src/vge_pipeline.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/vulkar.dir/src/vge_pipeline.cpp.s"
 	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\phini\Desktop\vulkar\src\vge_pipeline.cpp -o CMakeFiles\vulkar.dir\src\vge_pipeline.cpp.s
 
+CMakeFiles/vulkar.dir/src/vge_window.cpp.obj: CMakeFiles/vulkar.dir/flags.make
+CMakeFiles/vulkar.dir/src/vge_window.cpp.obj: CMakeFiles/vulkar.dir/includes_CXX.rsp
+CMakeFiles/vulkar.dir/src/vge_window.cpp.obj: C:/Users/phini/Desktop/vulkar/src/vge_window.cpp
+CMakeFiles/vulkar.dir/src/vge_window.cpp.obj: CMakeFiles/vulkar.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\phini\Desktop\vulkar\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/vulkar.dir/src/vge_window.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vulkar.dir/src/vge_window.cpp.obj -MF CMakeFiles\vulkar.dir\src\vge_window.cpp.obj.d -o CMakeFiles\vulkar.dir\src\vge_window.cpp.obj -c C:\Users\phini\Desktop\vulkar\src\vge_window.cpp
+
+CMakeFiles/vulkar.dir/src/vge_window.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/vulkar.dir/src/vge_window.cpp.i"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\phini\Desktop\vulkar\src\vge_window.cpp > CMakeFiles\vulkar.dir\src\vge_window.cpp.i
+
+CMakeFiles/vulkar.dir/src/vge_window.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/vulkar.dir/src/vge_window.cpp.s"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\phini\Desktop\vulkar\src\vge_window.cpp -o CMakeFiles\vulkar.dir\src\vge_window.cpp.s
+
 # Object files for target vulkar
 vulkar_OBJECTS = \
-"CMakeFiles/vulkar.dir/src/main.cpp.obj" \
 "CMakeFiles/vulkar.dir/src/VulkanApp.cpp.obj" \
-"CMakeFiles/vulkar.dir/src/vge_pipeline.cpp.obj"
+"CMakeFiles/vulkar.dir/src/main.cpp.obj" \
+"CMakeFiles/vulkar.dir/src/vge_device.cpp.obj" \
+"CMakeFiles/vulkar.dir/src/vge_pipeline.cpp.obj" \
+"CMakeFiles/vulkar.dir/src/vge_window.cpp.obj"
 
 # External object files for target vulkar
 vulkar_EXTERNAL_OBJECTS =
 
-vulkar.exe: CMakeFiles/vulkar.dir/src/main.cpp.obj
 vulkar.exe: CMakeFiles/vulkar.dir/src/VulkanApp.cpp.obj
+vulkar.exe: CMakeFiles/vulkar.dir/src/main.cpp.obj
+vulkar.exe: CMakeFiles/vulkar.dir/src/vge_device.cpp.obj
 vulkar.exe: CMakeFiles/vulkar.dir/src/vge_pipeline.cpp.obj
+vulkar.exe: CMakeFiles/vulkar.dir/src/vge_window.cpp.obj
 vulkar.exe: CMakeFiles/vulkar.dir/build.make
 vulkar.exe: C:/VulkanSDK/1.3.275.0/Lib/vulkan-1.lib
 vulkar.exe: C:/src/vcpkg/installed/x64-mingw-static/lib/libglfw3.a
 vulkar.exe: CMakeFiles/vulkar.dir/linkLibs.rsp
 vulkar.exe: CMakeFiles/vulkar.dir/objects1.rsp
 vulkar.exe: CMakeFiles/vulkar.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\phini\Desktop\vulkar\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable vulkar.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\phini\Desktop\vulkar\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable vulkar.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\vulkar.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -3,8 +3,8 @@
 #include <iostream>
 #include <vector>
 
+namespace vge {
 void VulkanApp::run() {
-    initWindow();
     initVulkan();
     mainLoop();
     cleanup();
@@ -12,20 +12,6 @@ void VulkanApp::run() {
 
 void VulkanApp::initVulkan() {
     createInstance();
-}
-
-void VulkanApp::initWindow() {
-    if (!glfwInit()) {
-        throw std::runtime_error("Failed to initialize GLFW!");
-    }
-
-    glfwWindowHint(GLFW_CLIENT_API, GLFW_NO_API);
-    glfwWindowHint(GLFW_RESIZABLE, GLFW_FALSE);
-
-    window = glfwCreateWindow(WIDTH, HEIGHT, "Vulkan (Fart) Window", nullptr, nullptr);
-    if (!window) {
-        throw std::runtime_error("Failed to create GLFW window!");
-    }
 }
 
 void VulkanApp::createInstance() {
@@ -73,13 +59,14 @@ void VulkanApp::createInstance() {
 }
 
 void VulkanApp::mainLoop() {
-    while (!glfwWindowShouldClose(window)) {
+    while (!vgeWindow.shouldClose()) {
         glfwPollEvents();
     }
 }
 
 void VulkanApp::cleanup() {
     vkDestroyInstance(instance, nullptr);
-    glfwDestroyWindow(window);
+    // glfwDestroyWindow(window);
     glfwTerminate();
 }
+} // namespace vge
