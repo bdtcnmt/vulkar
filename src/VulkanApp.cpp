@@ -32,12 +32,12 @@ void VulkanApp::createInstance() {
     glfwExtensions = glfwGetRequiredInstanceExtensions(&glfwExtensionCount);
 
     // Print the number of required GLFW extensions
-    std::cout << "GLFW requires " << glfwExtensionCount << " extensions:\n";
+    // std::cout << "GLFW requires " << glfwExtensionCount << " extensions:\n";
 
     // Print each GLFW extension name
-    for (uint32_t i = 0; i < glfwExtensionCount; i++) {
-        std::cout << '\t' << glfwExtensions[i] << '\n';
-    }
+    // for (uint32_t i = 0; i < glfwExtensionCount; i++) {
+    //     std::cout << '\t' << glfwExtensions[i] << '\n';
+    // }
 
     createInfo.enabledExtensionCount = glfwExtensionCount;
     createInfo.ppEnabledExtensionNames = glfwExtensions;
@@ -46,16 +46,6 @@ void VulkanApp::createInstance() {
     if (vkCreateInstance(&createInfo, nullptr, &instance) != VK_SUCCESS) {
         throw std::runtime_error("Failed to create Vulkan instance!");
     }
-
-    // List available vulkan extensions
-    uint32_t extensionCount = 0;
-    vkEnumerateInstanceExtensionProperties(nullptr, &extensionCount, nullptr);
-    std::vector<VkExtensionProperties> extensions(extensionCount);
-    vkEnumerateInstanceExtensionProperties(nullptr, &extensionCount, extensions.data());
-    std::cout << "Available Extensions:\n";
-    for (const auto& extension : extensions) {
-        std::cout << '\t' << extension.extensionName << '\n';
-    } 
 }
 
 void VulkanApp::mainLoop() {

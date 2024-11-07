@@ -1,6 +1,31 @@
 CMakeFiles/vulkar.dir/src/vge_pipeline.cpp.obj: \
  C:\Users\phini\Desktop\vulkar\src\vge_pipeline.cpp \
  C:/Users/phini/Desktop/vulkar/include/vge_pipeline.h \
+ C:/Users/phini/Desktop/vulkar/include/vge_device.h \
+ C:/Users/phini/Desktop/vulkar/include/vge_window.h \
+ C:/src/vcpkg/installed/x64-mingw-static/include/GLFW/glfw3.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \
+ C:/msys64/ucrt64/include/stddef.h C:/msys64/ucrt64/include/crtdefs.h \
+ C:/msys64/ucrt64/include/corecrt.h C:/msys64/ucrt64/include/_mingw.h \
+ C:/msys64/ucrt64/include/_mingw_mac.h \
+ C:/msys64/ucrt64/include/_mingw_secapi.h \
+ C:/msys64/ucrt64/include/vadefs.h \
+ C:/msys64/ucrt64/include/sdks/_mingw_ddk.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdint.h \
+ C:/msys64/ucrt64/include/stdint.h \
+ C:/VulkanSDK/1.3.275.0/Include/vulkan/vulkan.h \
+ C:/VulkanSDK/1.3.275.0/Include/vulkan/vk_platform.h \
+ C:/VulkanSDK/1.3.275.0/Include/vulkan/vulkan_core.h \
+ C:/VulkanSDK/1.3.275.0/Include/vk_video/vulkan_video_codec_h264std.h \
+ C:/VulkanSDK/1.3.275.0/Include/vk_video/vulkan_video_codecs_common.h \
+ C:/VulkanSDK/1.3.275.0/Include/vk_video/vulkan_video_codec_h264std_encode.h \
+ C:/VulkanSDK/1.3.275.0/Include/vk_video/vulkan_video_codec_h264std.h \
+ C:/VulkanSDK/1.3.275.0/Include/vk_video/vulkan_video_codec_h265std.h \
+ C:/VulkanSDK/1.3.275.0/Include/vk_video/vulkan_video_codec_h265std_encode.h \
+ C:/VulkanSDK/1.3.275.0/Include/vk_video/vulkan_video_codec_h265std.h \
+ C:/VulkanSDK/1.3.275.0/Include/vk_video/vulkan_video_codec_h264std_decode.h \
+ C:/VulkanSDK/1.3.275.0/Include/vk_video/vulkan_video_codec_h265std_decode.h \
+ C:/msys64/ucrt64/include/GL/gl.h \
  C:/msys64/ucrt64/include/c++/13.1.0/string \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/requires_hosted.h \
  C:/msys64/ucrt64/include/c++/13.1.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -12,11 +37,7 @@ CMakeFiles/vulkar.dir/src/vge_pipeline.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/char_traits.h \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/postypes.h \
  C:/msys64/ucrt64/include/c++/13.1.0/cwchar \
- C:/msys64/ucrt64/include/wchar.h C:/msys64/ucrt64/include/corecrt.h \
- C:/msys64/ucrt64/include/_mingw.h C:/msys64/ucrt64/include/_mingw_mac.h \
- C:/msys64/ucrt64/include/_mingw_secapi.h \
- C:/msys64/ucrt64/include/vadefs.h \
- C:/msys64/ucrt64/include/sdks/_mingw_ddk.h \
+ C:/msys64/ucrt64/include/wchar.h \
  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
  C:/msys64/ucrt64/include/_mingw_off_t.h \
@@ -36,8 +57,7 @@ CMakeFiles/vulkar.dir/src/vge_pipeline.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/localefwd.h \
  C:/msys64/ucrt64/include/c++/13.1.0/x86_64-w64-mingw32/bits/c++locale.h \
  C:/msys64/ucrt64/include/c++/13.1.0/clocale \
- C:/msys64/ucrt64/include/locale.h C:/msys64/ucrt64/include/crtdefs.h \
- C:/msys64/ucrt64/include/stdio.h \
+ C:/msys64/ucrt64/include/locale.h C:/msys64/ucrt64/include/stdio.h \
  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
  C:/msys64/ucrt64/include/c++/13.1.0/iosfwd \
  C:/msys64/ucrt64/include/c++/13.1.0/cctype \
@@ -90,8 +110,6 @@ CMakeFiles/vulkar.dir/src/vge_pipeline.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/basic_string.tcc \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/memory_resource.h \
  C:/msys64/ucrt64/include/c++/13.1.0/cstddef \
- C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \
- C:/msys64/ucrt64/include/stddef.h \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/uses_allocator.h \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/uses_allocator_args.h \
  C:/msys64/ucrt64/include/c++/13.1.0/tuple \

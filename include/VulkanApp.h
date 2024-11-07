@@ -4,6 +4,7 @@
 #include <GLFW/glfw3.h>
 #include "vge_window.h"
 #include "vge_pipeline.h"
+#include "vge_device.h"
 
 namespace vge {
 class VulkanApp {
@@ -21,7 +22,11 @@ class VulkanApp {
 
         GLFWwindow* window;
         VkInstance instance;
-
-        VgePipeline vgePipelin{"../shaders/simple_shader.vert.spv", "../shaders/simple_shader.frag.spv"};
+        VgeDevice vgeDevice{vgeWindow};
+        VgePipeline vgePipeline{
+            vgeDevice, 
+            "../shaders/simple_shader.vert.spv", 
+            "../shaders/simple_shader.frag.spv", 
+            VgePipeline::defaultPipelineConfigInfo(WIDTH, HEIGHT)};
 };
 } // namespace vge

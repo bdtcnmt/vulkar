@@ -113,6 +113,7 @@ CMakeFiles/vulkar.dir/src/VulkanApp.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/uses_allocator_args.h \
  C:/msys64/ucrt64/include/c++/13.1.0/tuple \
  C:/Users/phini/Desktop/vulkar/include/vge_pipeline.h \
+ C:/Users/phini/Desktop/vulkar/include/vge_device.h \
  C:/msys64/ucrt64/include/c++/13.1.0/vector \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/stl_uninitialized.h \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/stl_vector.h \
